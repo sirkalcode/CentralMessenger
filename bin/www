@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-var debug = require('debug')('CentralMsgr');
+var debug = require('debug')('Central Messenger');
 var app = require('../app');
 
 app.set('port', process.env.PORT || 3101);
