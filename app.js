@@ -10,7 +10,7 @@ var bodyParser = require('body-parser');
 
 var app = express();
 
-require('./configs/db');
+//require('./configs/db');
 require('./configs/socket');
 var apis = require('./configs/routes');
 
